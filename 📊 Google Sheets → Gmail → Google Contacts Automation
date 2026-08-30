@@ -1,0 +1,71 @@
+A practical n8n workflow that turns Google Sheets into the starting point for an automated contact and communication system.
+
+Instead of manually creating contacts and sending emails, the workflow connects the process into a single automated flow.
+
+💼 Business Problem
+
+Businesses often collect contact information in spreadsheets but still manually:
+
+Create contacts
+Send emails
+Move information between tools
+Maintain contact records
+
+This workflow removes those repetitive steps.
+
+⚙️ What It Does
+
+Google Sheets → n8n → Gmail → Google Contacts
+
+When new contact information is added to the spreadsheet, n8n processes the data and automatically handles the connected actions.
+
+🏗️ Workflow Architecture
+Google Sheets
+     ↓
+    n8n
+     ↓
+Process Contact Data
+     ↓
+    ┌───────────────┐
+    ↓               ↓
+  Gmail      Google Contacts
+
+🛠️ Tools Used
+n8n
+Google Sheets
+Gmail
+Google Contacts
+
+🔑 Key Steps
+Capture contact information in Google Sheets
+Trigger the n8n workflow
+Process the submitted data
+Send the required Gmail communication
+Create/manage the corresponding Google Contact
+
+💡 Business Use Cases
+Lead management
+Sales outreach
+Client onboarding
+Networking
+Recruitment
+Customer management
+Creator outreach
+Internal contact management
+
+🚀 Benefits
+Reduces repetitive data entry
+Saves time
+Keeps contact information organized
+Automates communication
+Creates a repeatable workflow
+
+🔧 Customization
+
+The workflow can be extended with additional logic, filters, notifications, CRM integrations, AI processing, lead qualification, follow-ups and other business-specific actions.
+
+The architecture can be adapted around the tools and processes a business already uses.
+
+🎥 YouTube Walkthrough
+
+https://youtu.be/d_B5vR_xUoM
