@@ -81,4 +81,4 @@ Additional automation steps can be connected depending on the business requireme
 
 ## 🎥 YouTube Walkthrough
 
-[Watch the complete workflow](YOUTUBE_LINK)
+https://youtu.be/Aev_63TAAMs
