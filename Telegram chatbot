@@ -1,0 +1,79 @@
+# 🤖 Telegram AI Agent with n8n, LLM & Memory
+
+## Overview
+
+A practical AI automation workflow that connects **Telegram with n8n, an LLM-based AI Agent, and conversational memory**.
+
+The result is a Telegram-based AI assistant that can understand messages, follow defined instructions, maintain conversational context and return responses directly to the user.
+
+## 💼 Business Problem
+
+Many businesses repeatedly answer the same questions, qualify leads, provide basic information, or perform routine communication.
+
+A conversational AI agent can automate these interactions while remaining connected to the wider business workflow.
+
+## ⚙️ What It Does
+
+```text
+Telegram Message
+       ↓
+      n8n
+       ↓
+   AI Agent
+     ↙   ↘
+   LLM   Memory
+     ↘   ↙
+    Response
+       ↓
+    Telegram
+```
+
+The system prompt defines the agent's behaviour, the LLM processes the request, memory provides conversational context, and n8n orchestrates the workflow.
+
+## 🛠️ Tools Used
+
+* n8n
+* Telegram
+* LLM
+* AI Agent
+* Conversational Memory
+
+## 🔑 Key Steps
+
+1. Receive a message through Telegram
+2. Trigger the n8n workflow
+3. Pass the message to the AI Agent
+4. Apply the custom system prompt
+5. Process the request using the LLM
+6. Retrieve relevant conversational memory
+7. Generate the response
+8. Send the response back through Telegram
+
+## 💡 Business Use Cases
+
+* Customer support
+* Lead qualification
+* Sales assistance
+* Internal team assistants
+* FAQ automation
+* Appointment assistance
+* Customer communication
+* Business information assistants
+
+## 🚀 Benefits
+
+* Provides automated conversational support
+* Maintains context across conversations
+* Creates consistent AI behaviour
+* Connects AI with business automation
+* Can operate as the conversational layer of a larger workflow
+
+## 🔧 Customization
+
+The agent can be customized through its system prompt, memory configuration, business logic and connected tools.
+
+Additional n8n workflows and integrations can be added to allow the agent to interact with other business systems and perform actions beyond conversation.
+
+## 🎥 YouTube Walkthrough
+
+https://youtu.be/qo8AoomthD0
