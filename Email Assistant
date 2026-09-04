@@ -1,0 +1,90 @@
+# 🤖 AI Email Assistant with n8n, Google Sheets & Gmail
+
+## Overview
+
+An AI-powered email assistant that allows users to manage email tasks through natural-language conversation.
+
+The AI Agent can understand instructions, retrieve updated information from Google Sheets, identify relevant contacts and send emails through Gmail.
+
+## 💼 Business Problem
+
+Many business processes require people to repeatedly:
+
+* Check spreadsheets
+* Find contact information
+* Write emails
+* Send follow-ups
+* Switch between multiple applications
+
+This workflow brings those steps together behind a conversational AI interface.
+
+## ⚙️ Workflow Architecture
+
+```text
+User Message
+     ↓
+AI Agent
+     ↓
+Understand Instruction
+     ↓
+Google Sheets
+     ↓
+Retrieve Updated Data
+     ↓
+LLM Processing
+     ↓
+Prepare Email
+     ↓
+Gmail
+     ↓
+Send Email
+```
+
+## 🛠️ Tools Used
+
+* n8n
+* AI Agent
+* LLM
+* Google Sheets
+* Gmail
+* Conversational interface
+
+## 🔑 Key Steps
+
+1. Receive a user instruction
+2. Pass the message to the AI Agent
+3. Interpret the requested action
+4. Read the latest Google Sheets data
+5. Identify the required contact information
+6. Generate the appropriate email
+7. Send the email through Gmail
+8. Return the result to the user
+
+## 💡 Business Use Cases
+
+* Sales follow-ups
+* Lead communication
+* Customer support
+* Recruitment outreach
+* Client onboarding
+* Internal communication
+* Automated reminders
+* Operations workflows
+
+## 🚀 Benefits
+
+* Reduces repetitive manual work
+* Connects business data with communication
+* Provides a natural-language interface
+* Automates multi-step tasks
+* Can be customized around existing business processes
+
+## 🔧 Customization
+
+The workflow can be adapted to different data sources, communication platforms, CRMs and business rules.
+
+Additional AI tools and n8n integrations can also be added so the agent can perform more complex business actions.
+
+## 🎥 YouTube Walkthrough
+
+https://youtu.be/lB_8zpKwARA
