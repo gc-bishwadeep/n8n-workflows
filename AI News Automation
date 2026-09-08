@@ -1,0 +1,104 @@
+
+An automated AI-powered news research workflow that collects articles from news APIs, filters and summarizes relevant topics using an AI Agent, customizes the output, and delivers the final intelligence brief through Telegram.
+
+The workflow is designed to turn a large stream of information into a focused, personalized news feed.
+
+## 💼 Business Problem
+
+Businesses and individuals often spend significant time manually:
+
+* Searching multiple news sources
+* Filtering irrelevant stories
+* Reading lengthy articles
+* Summarizing information
+* Preparing daily briefings
+* Sharing relevant updates with teams
+
+This workflow automates that process.
+
+## ⚙️ Workflow Architecture
+
+```text
+Scheduled Trigger
+       ↓
+    News APIs
+       ↓
+  Article Collection
+       ↓
+    AI Agent
+       ↓
+Topic Selection & Filtering
+       ↓
+   AI Summarization
+       ↓
+ Custom Instructions
+       ↓
+ Personalized Output
+       ↓
+     Telegram
+       ↓
+Original Article Links
+```
+
+## 🛠️ Tools Used
+
+* n8n
+* News APIs
+* AI Agent
+* LLM
+* Telegram
+* Scheduled automation
+
+## 🔑 Key Steps
+
+1. Trigger the workflow on a defined schedule
+2. Fetch the latest news and article data through APIs
+3. Pass the collected information to the AI Agent
+4. Identify the most relevant topics
+5. Filter unwanted or low-value information
+6. Summarize selected articles
+7. Apply custom instructions to the final output
+8. Format the news briefing
+9. Send the result to Telegram
+10. Include the original article links for source verification
+
+## 💡 Business Use Cases
+
+* Industry intelligence
+* Competitor monitoring
+* Market research
+* Executive news briefings
+* Regulatory monitoring
+* Content research
+* Sales intelligence
+* Research teams
+* Startup and founder intelligence
+* Internal company updates
+
+## 🚀 Benefits
+
+* Automates repetitive research
+* Reduces information overload
+* Delivers relevant information on schedule
+* Creates personalized summaries
+* Maintains links to original sources
+* Can monitor specific topics, industries or competitors
+
+## 🔧 Customization
+
+The workflow can be customized by changing:
+
+* News sources
+* APIs
+* Topics and keywords
+* AI Agent instructions
+* Filtering criteria
+* Summary format
+* Delivery channels
+* Scheduling frequency
+
+Additional business systems can also be connected through n8n to turn the intelligence feed into downstream actions.
+
+## 🎥 YouTube Walkthrough
+
+https://youtu.be/1yI8gkIbsDA
