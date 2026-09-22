@@ -1,0 +1,105 @@
+# AI Customer Feedback Sentiment Analysis with n8n
+
+## Overview
+
+An AI-powered n8n workflow that analyzes customer feedback, identifies sentiment, generates an appropriate response, and extracts potential improvement opportunities.
+
+The goal is to move beyond simple sentiment classification and turn customer feedback into actionable business information.
+
+## Business Problem
+
+Businesses receive customer feedback through reviews, forms, surveys, support messages and other channels.
+
+Manually reading, categorizing and responding to every message can become repetitive and time-consuming.
+
+This workflow automates the first layer of that process.
+
+## What It Does
+
+The workflow:
+
+1. Receives customer feedback
+2. Sends the feedback to an AI Agent
+3. Determines the sentiment
+4. Separates positive and negative feedback
+5. Generates a context-appropriate response
+6. Provides empathy for negative experiences
+7. Suggests potential improvements
+8. Provides an appreciation-focused response for positive feedback
+
+## Workflow
+
+Customer Feedback
+↓
+AI Agent
+↓
+Sentiment Analysis
+↓
+Positive / Negative
+↓
+Response Generation
+↓
+Improvement Suggestions
+
+## Key AI Logic
+
+The system prompt is an important part of the workflow.
+
+The AI is instructed to behave differently depending on the feedback:
+
+### Negative Feedback
+
+* Understand the customer's concern
+* Respond empathetically
+* Avoid defensive language
+* Identify potential areas for improvement
+* Generate a suitable customer-facing response
+
+### Positive Feedback
+
+* Recognize the positive experience
+* Respond appreciatively
+* Maintain an appropriate customer-focused tone
+
+## Business Use Cases
+
+This workflow can be adapted for:
+
+* Customer support
+* Product feedback
+* SaaS reviews
+* E-commerce reviews
+* Customer surveys
+* Service businesses
+* Customer experience teams
+* Feedback collection systems
+
+## Tools
+
+* n8n
+* AI Agent / LLM
+* Sentiment analysis
+* Workflow automation
+
+## Why It Matters
+
+The value isn't only in identifying whether feedback is positive or negative.
+
+The workflow connects sentiment analysis with the next step: understanding how the business can respond and what could potentially be improved.
+
+## Customization
+
+The workflow can be extended with:
+
+* Google Sheets
+* CRM systems
+* Gmail
+* Slack
+* Telegram
+* Helpdesk platforms
+* Review platforms
+* Customer databases
+
+## YouTube Walkthrough
+
+https://youtu.be/enlurfPQCJA
